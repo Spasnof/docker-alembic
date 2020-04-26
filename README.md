@@ -10,9 +10,9 @@ Database change automation and tracking using alembic, docker, and CI/CD*. This 
 
 Docker abstracts away the enviroment/drivers/parameters needed to perform this change control and allow for an easy port between CI/CD implementations. The final flow should look like this:
 
-1. Maintainer/DBA sets up docker-alambic on their CI/CD infrastructure.
+1. Maintainer/DBA sets up docker-alembic on their CI/CD infrastructure.
 2. Contributers create database changes as alembic migration files / revisions 
-3. When a contributer's database changes are approved and the pr is merged the database/alambic will keep track of the revision state and get up to date.
+3. When a contributer's database changes are approved and the pr is merged the database/alembic will keep track of the revision state and get up to date.
 
 
 ## What is this for?
